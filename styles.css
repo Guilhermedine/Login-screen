@@ -70,7 +70,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transform: .5s;
+  transition: 0.5s;
   margin-top: 40px;
   letter-spacing: 4px;
 }
@@ -86,7 +86,7 @@ body {
     0 0 100px #03e9f4;
 }
 
-.login-box a:span {
+.login-box a span {
   position: absolute;
   display: block;
 }
